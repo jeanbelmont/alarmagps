@@ -1,6 +1,6 @@
 const url = 'wss://jjco.dev';
 const local = 'ws://localhost:3000';
-const ws = new WebSocket(local);
+const ws = new WebSocket(url);
 
 // const messageInput = document.getElementById('messageInput');
 // const sendButton = document.getElementById('sendButton');

@@ -65,7 +65,7 @@
 	/*****************************************************************/
 	const url = 'wss://jjco.dev';
 	const local = 'ws://localhost:3000';
-	const ws = new WebSocket(local);
+	const ws = new WebSocket(url);
 
 	// Connection opened
 	ws.addEventListener('open', () => {
